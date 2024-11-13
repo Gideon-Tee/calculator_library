@@ -14,4 +14,4 @@ def divide(first_term, second_term):
     try:
         return first_term / second_term
     except ZeroDivisionError:
-        return f"cannot divide with 0"
+        return "cannot divide with 0"
